@@ -1,8 +1,8 @@
 export const coreCandle = {
   deployer: '',
   factory: '',
-  feeReceiver: '0x0000000000000000000000000000000000000000',
-  feeSetter: '0x0000000000000000000000000000000000000000'
+  feeReceiver: '0x546D090bbcEC3d96903d41e38C3436c1C601AF9c',
+  feeSetter: '0x546D090bbcEC3d96903d41e38C3436c1C601AF9c'
 }
 
 export const peripheryCandle = {
