@@ -52,6 +52,7 @@ export const FACTORY_ADDRESS: { [chainId: number]: string } = {
   [ChainId.SOKOL]: coreSokol.factory,
   [ChainId.XDAI]: coreXDai.factory,
   [ChainId.MATIC]: coreMatic.factory
+  [ChainId.CANDLE]: coreCandle.factory
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]?: string } = {
@@ -60,7 +61,8 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]?: string } = {
   [ChainId.ARBITRUM_TESTNET_V3]: peripheryArbitrumTestnetV3.router,
   [ChainId.SOKOL]: peripherySokol.router,
   [ChainId.XDAI]: peripheryXDai.router,
-  [ChainId.MATIC]: peripheryMatic.router
+  [ChainId.MATIC]: peripheryMatic.router,
+  [ChainId.CANDLE]: peripheryCandle.router
 }
 
 export const STAKING_REWARDS_FACTORY_ADDRESS: { [chainId: number]: string } = {
@@ -87,7 +89,8 @@ export const DXSWAP_TOKEN_LIST_ID: { [chainId: number]: number } = {
   [ChainId.ARBITRUM_TESTNET_V3]: 1,
   [ChainId.SOKOL]: 1,
   [ChainId.XDAI]: 5,
-  [ChainId.MATIC]: 137
+  [ChainId.MATIC]: 137,
+  [ChainId.CANDLE]: 534
 }
 
 export const INIT_CODE_HASH: { [chainId: number]: string } = {

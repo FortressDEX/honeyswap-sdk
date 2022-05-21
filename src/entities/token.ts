@@ -67,6 +67,10 @@ export class Token extends Currency {
     [ChainId.MATIC]: new Token(ChainId.MATIC, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WMATIC', 'Wrapped Matic')
   }
 
+  public static readonly WCNDL: { [key: number]: Token } = {
+    [ChainId.CANDLE]: new Token(ChainId.CANDLE, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WCNDL', 'Wrapped Candle')
+  }
+
   public static readonly DXD: { [key: number]: Token } = {
     [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0xa1d65E8fB6e87b60FECCBc582F7f97804B725521', 18, 'DXD', 'DXdao'),
     [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, '0x554898A0BF98aB0C03ff86C7DccBE29269cc4d29', 18, 'DXD', 'DXdao'),
@@ -85,7 +89,8 @@ export class Token extends Currency {
     [ChainId.ARBITRUM_TESTNET_V3]: Token.WETH[ChainId.ARBITRUM_TESTNET_V3],
     [ChainId.SOKOL]: Token.WSPOA[ChainId.SOKOL],
     [ChainId.XDAI]: Token.WXDAI[ChainId.XDAI],
-    [ChainId.MATIC]: Token.WMATIC[ChainId.MATIC]
+    [ChainId.MATIC]: Token.WMATIC[ChainId.MATIC],
+    [ChainId.CANDLE]: Token.WCNDL[ChainId.CANDLE]
   }
 
   public constructor(chainId: ChainId, address: string, decimals: number, symbol?: string, name?: string) {
@@ -148,3 +153,4 @@ export const WSPOA = Token.WSPOA
 export const DXD = Token.DXD
 export const WXDAI = Token.WXDAI
 export const WMATIC = Token.WMATIC
+export const WCNDL = Token.WCNDL
