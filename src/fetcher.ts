@@ -376,7 +376,7 @@ export abstract class Fetcher {
     const tokenListUrl = new Map([
       [1, 'https://tokens.coingecko.com/uniswap/all.json'],
       [100, 'https://tokens.honeyswap.org'],
-      [137, 'https://tokens.honeyswap.org']
+      [137, 'https://tokens.honeyswap.org'],
       [534, 'https://tokens.honeyswap.org']
     ])
 
