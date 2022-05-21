@@ -29,7 +29,8 @@ export enum ChainId {
   ARBITRUM_TESTNET_V3 = 79377087078960,
   SOKOL = 77,
   XDAI = 100,
-  MATIC = 137
+  MATIC = 137,
+  CANDLE = 534
 }
 
 export enum TradeType {
@@ -51,7 +52,7 @@ export const FACTORY_ADDRESS: { [chainId: number]: string } = {
   [ChainId.ARBITRUM_TESTNET_V3]: coreArbitrumTestnetV3.factory,
   [ChainId.SOKOL]: coreSokol.factory,
   [ChainId.XDAI]: coreXDai.factory,
-  [ChainId.MATIC]: coreMatic.factory
+  [ChainId.MATIC]: coreMatic.factory,
   [ChainId.CANDLE]: coreCandle.factory
 }
 
