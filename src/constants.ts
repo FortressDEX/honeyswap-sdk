@@ -9,16 +9,18 @@ import {
   arbitrumTestnetV3 as coreArbitrumTestnetV3,
   sokol as coreSokol,
   xdai as coreXDai,
-  matic as coreMatic
+  matic as coreMatic,
 } from 'dxswap-core/.contracts.json'
+
 import {
   rinkeby as peripheryRinkeby,
   mainnet as peripheryMainnet,
   arbitrumTestnetV3 as peripheryArbitrumTestnetV3,
   sokol as peripherySokol,
   xdai as peripheryXDai,
-  matic as peripheryMatic
+  matic as peripheryMatic,
 } from 'dxswap-periphery/.contracts.json'
+import { coreCandle, peripheryCandle } from 'candleConstants'
 
 // exports for external consumption
 export type BigintIsh = JSBI | bigint | string
