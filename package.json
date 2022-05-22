@@ -1,14 +1,14 @@
 {
   "name": "bxswap-sdk",
   "license": "AGPL-3.0-or-later",
-  "version": "0.9.4",
+  "version": "0.9.6",
   "description": "An SDK for building applications on top of DXswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/levelkdev/dxswap-sdk.git",
+  "repository": "https://github.com/FortressDEX/honeyswap-sdk.git",
   "keywords": [
     "dxswap",
     "ethereum"
@@ -25,8 +25,8 @@
     "@makerdao/multicall": "^0.11.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
-    "dxswap-core": "https://github.com/1Hive/dxswap-core.git#master",
-    "dxswap-periphery": "https://github.com/1Hive/dxswap-periphery.git#master",
+    "dxswap-core": "https://github.com/FortressDEX/dxswap-core.git",
+    "dxswap-periphery": "https://github.com/FortressDEX/dxswap-periphery.git",
     "jsbi": "^3.1.1",
     "node-fetch": "^2.6.1",
     "tiny-invariant": "^1.1.0",
