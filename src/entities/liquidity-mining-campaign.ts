@@ -36,7 +36,7 @@ const MINIMUM_STAKED_AMOUNT_NATIVE_CURRENCY: { [chainId in ChainId]: CurrencyAmo
   ),
   [ChainId.CANDLE]: CurrencyAmount.nativeCurrency(
     utils.parseUnits('1000', Token.getNative(ChainId.CANDLE).decimals).toString(),
-    ChainId.MATIC
+    ChainId.CANDLE
   )
 }
 
