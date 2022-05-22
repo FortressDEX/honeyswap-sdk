@@ -20,7 +20,7 @@ import {
   xdai as peripheryXDai,
   matic as peripheryMatic,
 } from 'dxswap-periphery/.contracts.json'
-import { coreCandle, peripheryCandle } from 'candleConstants'
+import { coreCandle, peripheryCandle } from './candleConstants'
 
 // exports for external consumption
 export type BigintIsh = JSBI | bigint | string
