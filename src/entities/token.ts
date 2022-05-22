@@ -52,6 +52,13 @@ export class Token extends Currency {
       18,
       'WETH',
       'Wrapped Ether on Matic'
+    ),
+    [ChainId.CANDLE]: new Token(
+      ChainId.CANDLE,
+      '0x62e931feb1265613C2A41132835897B4DFb97f4a',
+      18,
+      'WETH',
+      'Wrapped Ether on Candle'
     )
   }
 
@@ -68,7 +75,7 @@ export class Token extends Currency {
   }
 
   public static readonly WCNDL: { [key: number]: Token } = {
-    [ChainId.CANDLE]: new Token(ChainId.CANDLE, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WCNDL', 'Wrapped Candle')
+    [ChainId.CANDLE]: new Token(ChainId.CANDLE, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WCNDL', 'Wrapped Candle') // to-do: change address
   }
 
   public static readonly DXD: { [key: number]: Token } = {
