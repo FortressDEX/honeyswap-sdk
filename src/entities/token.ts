@@ -75,7 +75,7 @@ export class Token extends Currency {
   }
 
   public static readonly WCNDL: { [key: number]: Token } = {
-    [ChainId.CANDLE]: new Token(ChainId.CANDLE, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WCNDL', 'Wrapped Candle') // to-do: change address
+    [ChainId.CANDLE]: new Token(ChainId.CANDLE, '0x85FA00f55492B0437b3925381fAaf0E024747627', 18, 'WCNDL', 'Wrapped Candle') // changed address to WCNDL
   }
 
   public static readonly DXD: { [key: number]: Token } = {
