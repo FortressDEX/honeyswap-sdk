@@ -55,7 +55,7 @@ export class Token extends Currency {
     ),
     [ChainId.CANDLE]: new Token(
       ChainId.CANDLE,
-      '0x62e931feb1265613C2A41132835897B4DFb97f4a',
+      '0xb750990F953B36F806d0327678eCFB4eEFd16979',
       18,
       'WETH',
       'Wrapped Ether on Candle'
