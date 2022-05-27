@@ -96,7 +96,7 @@ export const DXSWAP_TOKEN_LIST_ID: { [chainId: number]: number } = {
   [ChainId.SOKOL]: 1,
   [ChainId.XDAI]: 5,
   [ChainId.MATIC]: 137,
-  [ChainId.CANDLE]: 534
+  [ChainId.CANDLE]: 1
 }
 
 export const INIT_CODE_HASH: { [chainId: number]: string } = {
